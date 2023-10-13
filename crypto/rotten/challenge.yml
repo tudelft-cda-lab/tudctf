@@ -1,0 +1,19 @@
+name: "Rotten"
+author: "dvos"
+category: crypto
+description: This flag is <b>rot</b>ten, it looks gross. <i>%&sr%uL#~%cf0`d0?_f0Cbc=04CJAf_N</i>
+value: 16  # beginner -> 16, easy -> 64, intermediate -> 256, hard -> 1024
+type: standard
+
+image: null
+protocol: null
+host: null
+
+flags:
+    - TUDCTF{ROT47_15_n07_r34l_cryp70}
+tags:
+    - cipher
+
+state: visible
+
+version: "0.1"

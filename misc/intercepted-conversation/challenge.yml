@@ -1,0 +1,22 @@
+name: "Intercepted conversation"
+author: "martin"
+category: misc
+description: One of our agents has intercepted a conversation between two suspected spies. Could you help us understand what they're talking about?
+value: 256  # beginner -> 16, easy -> 64, intermediate -> 256, hard -> 1024
+type: standard
+
+image: null
+protocol: null
+host: null
+
+flags:
+    - TUDCTF{625739267299}
+tags:
+    - signal processing
+    - sound
+files:
+    - dist/recording.wav
+
+state: visible
+
+version: "0.1"

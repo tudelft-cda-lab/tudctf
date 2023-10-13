@@ -1,0 +1,20 @@
+name: "Oh Ship!"
+author: "martin"
+category: osint
+description: "Oh ship! I was supposed to keep an eye on this container here in Antwerp! I looked away for a second and now it's gone. My boss will kill me if I don't find it fast! Help! <br> Note: the flag is the name of the city without TUDCTF{...}"
+value: 16  # beginner -> 16, easy -> 64, intermediate -> 256, hard -> 1024
+type: standard
+
+image: null
+protocol: null
+host: null
+
+flags:
+    - Ashdod
+    - TUDCTF{Ashdod}
+files:
+    - oh_ship.jpeg
+
+state: visible
+
+version: "0.1"

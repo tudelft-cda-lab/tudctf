@@ -1,0 +1,19 @@
+from the bottom:
+
+0xfd 0xf2 0x76 0x6b 0x57 0x4f 0x7a 0x37 0x79 0x9e 0x27 0x8 0xf5 0x17 0xf4 0x8b 0x62 0x32 0x9b 0x96 0x24 0x4d 0x72 0xfd 0x1a 0xc8 0x4b 0x78 0xa 0x8e 0x40 0xca 
+
+last step is a substitution, so reverse that and get 32 chars for previous step, substitution is reversable as it has 256 distinct values
+
+this step is iterated 7 times, 
+
+to reverse it:
+	simplify second part of it knowing that p array is constant
+		you are creating the new characters by xoring some of the substituted ones
+		for example character 0 is the xor of characters 0 1 2 4 10 12 13 14 15 16 19 20 22 23 24 25 27 30
+		character 1 is the xor of some other ones
+		
+	knowing that we can simplify and solve the system of xors (possible as we have 32 equations and 32 variables) with gaussian elimination
+	
+	again reverse the s-box
+
+repeat this 7 times and you should have a valid flag

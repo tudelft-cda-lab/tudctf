@@ -1,0 +1,19 @@
+name: "Broken file"
+author: "martin"
+category: forensics
+description: "My file broke :("
+value: 16  # beginner -> 16, easy -> 64, intermediate -> 256, hard -> 1024
+type: standard
+
+image: null
+protocol: null
+host: null
+
+flags:
+    - TUDCTF{shrek_thanks_you_4_fixing_my_file}
+files:
+    - dist/flag.jpg
+
+state: visible
+
+version: "0.1"

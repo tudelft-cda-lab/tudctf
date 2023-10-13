@@ -1,0 +1,26 @@
+name: "Brainfuck 87"
+author: "per"
+category: misc
+description: Fast is good, but now it is safe as well for sure! Disclaimer, exploit can be some megabytes, mine was about 15MB, make sure to stay within memory limit but don't be scared to send some length exploits.
+value: 1024  # beginner -> 16, easy -> 64, intermediate -> 256, hard -> 1024
+type: standard
+
+image: null
+protocol: null
+host: null
+
+connection_info: nc tudctf.per.lol 1387
+
+flags:
+    - TUDCTF{d0lph1ns_c4n_und3rst4nd_br41nfuck_j1ts}
+tags:
+    - brainfuck
+    - jit
+files:
+    - dist/brainfuck_jit.nim
+    - dist/Dockerfile
+    - dist/launch-docker.sh
+
+state: visible
+
+version: "0.1"

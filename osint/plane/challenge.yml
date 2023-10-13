@@ -1,0 +1,20 @@
+name: "Plane"
+author: "martin"
+category: osint
+description: "We have received information that a subject we're interested in was on this plane on 6 October in the morning. Can you help us figure out where he went? <br> Note: the flag is the name of the city without TUDCTF{...}"
+value: 16  # beginner -> 16, easy -> 64, intermediate -> 256, hard -> 1024
+type: standard
+
+image: null
+protocol: null
+host: null
+
+flags:
+    - Beirut
+    - TUDCTF{Beirut}
+files:
+    - plane.jpg
+
+state: visible
+
+version: "0.1"

@@ -1,0 +1,19 @@
+name: "deep hole"
+author: "martin"
+category: forensics
+description: Oops, I dropped my flag into this hole... Could you fetch it for me?
+value: 16  # beginner -> 16, easy -> 64, intermediate -> 256, hard -> 1024
+type: standard
+
+image: null
+protocol: null
+host: null
+
+flags:
+    - TUDCTF{thx_4_f1nd1ng_it}
+files:
+    - dist/hole.tar.xz
+
+state: visible
+
+version: "0.1"

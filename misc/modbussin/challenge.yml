@@ -1,0 +1,19 @@
+name: "ModBussin'"
+author: "martin"
+category: misc
+description: "I've bought a bussin' new smart grid solar panel!"
+value: 64  # beginner -> 16, easy -> 64, intermediate -> 256, hard -> 1024
+type: standard
+
+image: null
+protocol: null
+host: null
+
+flags:
+    - TUDCTF{y0u_h4ck3d_my_m0dbussin_s0lar_p4nel_4nd_st0pp3d_my_p0wer}
+
+state: visible
+
+version: "0.1"
+
+connection_info: "158.180.233.240:502"

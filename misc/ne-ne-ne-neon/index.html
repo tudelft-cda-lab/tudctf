@@ -1,0 +1,52 @@
+<style>
+  @keyframes shortflicker {
+    0% {
+      opacity: 1;
+    }
+    6% {
+      opacity: 0;
+    }
+    94% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes longflicker {
+    0% {
+      opacity: 1;
+    }
+    2% {
+      opacity: 0;
+    }
+    98% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes gap {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  #neonsign {
+    animation: longflicker 0.9s, gap 0.9s, shortflicker 0.3s, longflicker 0.9s, shortflicker 0.3s, gap 0.9s, longflicker 0.9s, shortflicker 0.3s, longflicker 0.9s, longflicker 0.9s, gap 0.9s, shortflicker 0.3s, shortflicker 0.3s, longflicker 0.9s, longflicker 0.9s, shortflicker 0.3s, longflicker 0.9s, gap 0.9s, longflicker 0.9s, shortflicker 0.3s, gap 0.9s, longflicker 0.9s, longflicker 0.9s, longflicker 0.9s, gap 0.9s, longflicker 0.9s, gap 0.9s, shortflicker 0.3s, shortflicker 0.3s, longflicker 0.9s, longflicker 0.9s, shortflicker 0.3s, longflicker 0.9s, gap 0.9s, longflicker 0.9s, gap 0.9s, longflicker 0.9s, longflicker 0.9s, longflicker 0.9s, gap 0.9s, shortflicker 0.3s, shortflicker 0.3s, longflicker 0.9s, longflicker 0.9s, shortflicker 0.3s, longflicker 0.9s, gap 0.9s, longflicker 0.9s, shortflicker 0.3s, shortflicker 0.3s, shortflicker 0.3s, gap 0.9s, shortflicker 0.3s, longflicker 0.9s, shortflicker 0.3s, shortflicker 0.3s, gap 0.9s, shortflicker 0.3s, shortflicker 0.3s, gap 0.9s, longflicker 0.9s, shortflicker 0.3s, gap 0.9s, longflicker 0.9s, shortflicker 0.3s, longflicker 0.9s, gap 0.9s, longflicker 0.9s, shortflicker 0.3s, longflicker 0.9s, shortflicker 0.3s, longflicker 0.9s, longflicker 0.9s;
+    animation-delay: 4.0s, 5.2s, 6.1s, 6.7s, 7.9s, 8.5s, 9.4s, 10.6s, 11.2s, 12.4s, 13.6s, 14.5s, 15.1s, 15.7s, 16.9s, 18.1s, 18.7s, 19.9s, 20.8s, 22.0s, 22.6s, 23.5s, 24.7s, 25.9s, 27.1s, 28.0s, 29.2s, 30.1s, 30.7s, 31.3s, 32.5s, 33.7s, 34.3s, 35.5s, 36.4s, 37.6s, 38.5s, 39.7s, 40.9s, 42.1s, 43.0s, 43.6s, 44.2s, 45.4s, 46.6s, 47.2s, 48.4s, 49.3s, 50.5s, 51.1s, 51.7s, 52.3s, 53.2s, 53.8s, 55.0s, 55.6s, 56.2s, 57.1s, 57.7s, 58.3s, 59.2s, 60.4s, 61.0s, 61.9s, 63.1s, 63.7s, 64.9s, 65.8s, 67.0s, 67.6s, 68.8s, 69.4s, 70.6s;
+  }
+</style>
+<div class="row align-items-center" style="min-height: calc(100vh - 4rem - 200px)">
+  <div class="col-md-6 offset-md-3 text-center">
+    <img id="neonsign" class="img-fluid" src="/files/1887b66643e8a79a7062d8ddf96b3782/tudctf.png"/>
+    <h4>TU Delft's annual beginner-friendly hacking competition</h4>
+    <p><a href="https://ctf.ewi.tudelft.nl/register">Sign up</a> and join us October 7 10:00 - October 8 22:00.</p>
+  </div>
+</div>

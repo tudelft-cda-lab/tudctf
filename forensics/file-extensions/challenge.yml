@@ -1,0 +1,21 @@
+name: "Corrupt file?"
+author: "maxdem"
+category: forensics
+description: This PDF document looks weird, can you check it?
+value: 16  # beginner -> 16, easy -> 64, intermediate -> 256, hard -> 1024
+type: standard
+
+image: null
+protocol: null
+host: null
+
+flags:
+    - TUDCTF{f1l3-ex73n51ons-4re-a-l1e}
+tags:
+    - files
+files:
+    - dist/flag.ppt.webm.bf.cpp.java.pdf
+
+state: visible
+
+version: "0.1"

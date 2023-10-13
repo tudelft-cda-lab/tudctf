@@ -1,0 +1,25 @@
+name: "Extra Cool Digital Signature Algorithm"
+author: "maxdem"
+category: crypto
+description: "I have created a new signature scheme: ECDSA, Extra Cool Digital Signature Algorithm. I just hope I did not make any mistake in my implementation."
+value: 256  # beginner -> 16, easy -> 64, intermediate -> 256, hard -> 1024
+type: standard
+
+image: null
+protocol: null
+host: null
+
+flags:
+    - TUDCTF{n0w4ymys3cures1gn4tur3}
+tags:
+    - cipher
+    - signature
+
+state: visible
+
+version: "0.1"
+
+connection_info: nc 158.180.233.240 47522
+
+files:
+    - dist/source.py

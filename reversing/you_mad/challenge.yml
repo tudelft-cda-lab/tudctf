@@ -1,0 +1,22 @@
+name: "You mad?"
+author: "CowCS"
+category: reversing
+description: Jenna was cleaning some files on her mom's computer when she found this weird binary. Can you help her figure out what it does?
+value: 64  # beginner -> 16, easy -> 64, intermediate -> 256, hard -> 1024
+type: standard
+
+image: null
+protocol: null
+host: null
+
+
+flags:
+    - TUDCTF{4ngr_m4k35_b1n4ry_4n4ly515_345y}
+tags:
+    - binary analysis
+
+files:
+    - dist/you_mad
+state: visible
+
+version: "0.1"

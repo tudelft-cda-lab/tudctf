@@ -1,0 +1,19 @@
+name: "Secure Database"
+author: "martin"
+category: forensics
+description: "I encrypted my flag database using a super secure 50-character random password. Nobody could ever crack it before the heat death of the universe!"
+value: 64  # beginner -> 16, easy -> 64, intermediate -> 256, hard -> 1024
+type: standard
+
+image: null
+protocol: null
+host: null
+
+flags:
+    - TUDCTF{z1pcrypt0_1s_b4d}
+files:
+    - dist/flag.sqlite.zip
+
+state: visible
+
+version: "0.1"

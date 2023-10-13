@@ -1,0 +1,24 @@
+name: "SHAES-512"
+author: "dvos"
+category: crypto
+description: I have protected this flag with top notch, double 256 bit, quantum-proof AES security.
+value: 1024  # beginner -> 16, easy -> 64, intermediate -> 256, hard -> 1024
+type: standard
+
+image: null
+protocol: null
+host: null
+
+connection_info: nc 164.92.218.155 6001
+
+flags:
+    - TUDCTF{1_c4n'7_b3l13v3_y0u'v3_d0n3_7h15}
+tags:
+    - AES
+    - SHA
+files:
+    - dist/server.py
+
+state: visible
+
+version: "0.1"

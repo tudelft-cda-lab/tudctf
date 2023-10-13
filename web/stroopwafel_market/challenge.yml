@@ -1,0 +1,24 @@
+name: "Stroopwafel market"
+author: "martin"
+category: web
+description: "At the stroopwafel market, understanding of stroopwafel supply and demand principles is important: if someone controls the stroopwafel supply, they can earn a lot of money, and perhaps even a flag."
+value: 1024  # beginner -> 16, easy -> 64, intermediate -> 256, hard -> 1024
+type: standard
+
+image: null
+protocol: null
+host: null
+
+flags:
+    - TUDCTF{h4ving_inf1n1te_str00pw4f3ls_s0und5_t4sty}
+tags:
+    - web
+
+state: visible
+
+version: "0.1"
+
+connection_info: http://158.180.233.240:47523/
+
+files:
+    - dist/stroopwafel_market.zip

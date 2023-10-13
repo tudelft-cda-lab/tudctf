@@ -1,0 +1,24 @@
+name: "CSS-my-forum"
+author: "TechnologicNick"
+category: web
+description: "I'm starting a new social media platform for people with a passion for graphic design. You can bring your own styles!"
+value: 1024  # beginner -> 16, easy -> 64, intermediate -> 256, hard -> 1024
+type: standard
+
+image: null
+protocol: null
+host: null
+
+flags:
+    - TUDCTF{c55_us3r_1nput_c4n_b3_d4ng3r0us_2}
+tags:
+    - web
+
+state: visible
+
+version: "0.1"
+
+connection_info: http://164.92.149.4:3000/
+
+files:
+    - dist/css-my-forum.zip

@@ -1,0 +1,22 @@
+name: "Shredder"
+author: "maxdem"
+category: reversing
+description: Document shredders are so good I created a digital version! The flag will be safe even if I tell you the shredded values.
+value: 1024 #maybe 256?  # beginner -> 16, easy -> 64, intermediate -> 256, hard -> 1024
+type: standard
+
+image: null
+protocol: null
+host: null
+
+flags:
+    - TUDCTF{g4u551an-3l1min47i0n-x0r}
+tags:
+    - reversing
+files:
+    - dist/flag-handler
+    - dist/flag-remains.txt
+
+state: visible
+
+version: "0.1"

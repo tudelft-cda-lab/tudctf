@@ -1,0 +1,129 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="proj_data" version="1.3.0" audacityversion="2.4.2" sel0="0.0000000000" sel1="40.8227891156" vpos="0" h="0.0000000000" zoom="66.0415288399" rate="24000.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
+	<tags>
+		<tag name="ALBUM" value="Middle East Inspired"/>
+		<tag name="ARTIST" value="Kevin MacLeod"/>
+		<tag name="TITLE" value="Greko Sketch"/>
+		<tag name="BPM (beats per minute)" value="144"/>
+		<tag name="Initial key" value="Bb"/>
+		<tag name="YEAR" value="2007-12-12T13:23"/>
+		<tag name="GENRE" value="Soundtrack"/>
+		<tag name="COMMENTS" value=" 00000000 00000210 0000090D 0000000000905363 00000000 0082D1CC 00000000 00000000 00000000 00000000 00000000 00000000"/>
+		<tag name="Composer" value="Kevin MacLeod"/>
+		<tag name="Software" value="Logic Pro 8.0.0"/>
+	</tags>
+	<wavetrack name="Mix" isSelected="1" height="150" minimized="0" channel="2" linked="0" mute="0" solo="0" rate="24000" gain="0.089125" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="943864">
+				<waveblock start="0">
+					<simpleblockfile filename="eff1f96d.au" len="262144" min="-0.365983" max="0.372553" rms="0.064011"/>
+				</waveblock>
+				<waveblock start="262144">
+					<simpleblockfile filename="eff1f812.au" len="262144" min="-0.364561" max="0.443212" rms="0.056947"/>
+				</waveblock>
+				<waveblock start="524288">
+					<simpleblockfile filename="eff1f7ad.au" len="262144" min="-0.300039" max="0.450775" rms="0.045327"/>
+				</waveblock>
+				<waveblock start="786432">
+					<simpleblockfile filename="eff1f9ff.au" len="157432" min="-0.283081" max="0.414897" rms="0.04615"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Greko Sketch" isSelected="1" height="150" minimized="0" channel="0" linked="1" mute="0" solo="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="1800285">
+				<waveblock start="0">
+					<silentblockfile len="261615"/>
+				</waveblock>
+				<waveblock start="261615">
+					<silentblockfile len="262144"/>
+				</waveblock>
+				<waveblock start="523759">
+					<silentblockfile len="262144"/>
+				</waveblock>
+				<waveblock start="785903">
+					<simpleblockfile filename="eff1fef0.au" len="262144" min="-0.88637" max="0.897217" rms="0.16391"/>
+				</waveblock>
+				<waveblock start="1048047">
+					<simpleblockfile filename="eff1f63f.au" len="262144" min="-0.920649" max="0.877951" rms="0.19952"/>
+				</waveblock>
+				<waveblock start="1310191">
+					<simpleblockfile filename="eff1f8c4.au" len="262144" min="-0.937437" max="0.899482" rms="0.203622"/>
+				</waveblock>
+				<waveblock start="1572335">
+					<simpleblockfile filename="eff1f298.au" len="227950" min="-0.970657" max="0.925658" rms="0.192561"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Greko Sketch" isSelected="1" height="150" minimized="0" channel="1" linked="0" mute="0" solo="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="1800285">
+				<waveblock start="0">
+					<silentblockfile len="261615"/>
+				</waveblock>
+				<waveblock start="261615">
+					<silentblockfile len="262144"/>
+				</waveblock>
+				<waveblock start="523759">
+					<silentblockfile len="262144"/>
+				</waveblock>
+				<waveblock start="785903">
+					<simpleblockfile filename="eff1f582.au" len="262144" min="-0.93959" max="0.880979" rms="0.160097"/>
+				</waveblock>
+				<waveblock start="1048047">
+					<simpleblockfile filename="eff1f8c6.au" len="262144" min="-0.968939" max="0.898479" rms="0.188787"/>
+				</waveblock>
+				<waveblock start="1310191">
+					<simpleblockfile filename="eff1f7f8.au" len="262144" min="-0.968763" max="0.943069" rms="0.186321"/>
+				</waveblock>
+				<waveblock start="1572335">
+					<simpleblockfile filename="eff1f493.au" len="227950" min="-1.001961" max="0.900032" rms="0.180748"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Greko Sketch" isSelected="1" height="150" minimized="0" channel="0" linked="1" mute="0" solo="0" rate="44100" gain="0.031623" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="860745">
+				<waveblock start="0">
+					<simpleblockfile filename="eff1f66a.au" len="261615" min="-0.970973" max="0.924187" rms="0.201348"/>
+				</waveblock>
+				<waveblock start="261615">
+					<simpleblockfile filename="eff1f8ea.au" len="262144" min="-0.940173" max="0.881464" rms="0.19819"/>
+				</waveblock>
+				<waveblock start="523759">
+					<simpleblockfile filename="eff1fab3.au" len="262144" min="-0.906575" max="0.863648" rms="0.189874"/>
+				</waveblock>
+				<waveblock start="785903">
+					<simpleblockfile filename="eff1f625.au" len="74842" min="-0.83573" max="0.829184" rms="0.18082"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Greko Sketch" isSelected="1" height="150" minimized="0" channel="1" linked="0" mute="0" solo="0" rate="44100" gain="0.031623" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="860745">
+				<waveblock start="0">
+					<simpleblockfile filename="eff1fbd3.au" len="261615" min="-1.001816" max="0.906337" rms="0.187062"/>
+				</waveblock>
+				<waveblock start="261615">
+					<simpleblockfile filename="eff1f053.au" len="262144" min="-0.970683" max="0.946047" rms="0.185822"/>
+				</waveblock>
+				<waveblock start="523759">
+					<simpleblockfile filename="eff1f08e.au" len="262144" min="-0.961862" max="0.904305" rms="0.182221"/>
+				</waveblock>
+				<waveblock start="785903">
+					<simpleblockfile filename="eff1fa96.au" len="74842" min="-0.933542" max="0.922506" rms="0.175682"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+</project>

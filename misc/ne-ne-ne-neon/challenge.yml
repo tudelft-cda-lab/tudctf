@@ -1,0 +1,23 @@
+name: "Ne-ne-ne-neon"
+author: "dvos"
+category: misc
+description: See anything interesting on our site? <br><br> <b>Note that this challenge will give you only the content of TUDCTF{...}, so it does not follow the typical flag format.</b>
+value: 64  # beginner -> 16, easy -> 64, intermediate -> 256, hard -> 1024
+type: standard
+
+image: null
+protocol: null
+host: null
+
+connection_info: https://ctf.ewi.tudelft.nl
+
+flags:
+    - try_not_to_blink!
+    - TUDCTF{try_not_to_blink!}
+tags:
+    - web
+    - signal processing
+
+state: visible
+
+version: "0.1"

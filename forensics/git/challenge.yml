@@ -1,0 +1,21 @@
+name: "Very safe storage"
+author: "maxdem"
+category: forensics
+description: I had placed the flag in this archive, but I have now removed it. No one will find it!
+value: 16  # beginner -> 16, easy -> 64, intermediate -> 256, hard -> 1024
+type: standard
+
+image: null
+protocol: null
+host: null
+
+flags:
+    - TUDCTF{no7-v3ry-s4fely-r3m0v3d}
+tags:
+    - vcs
+files:
+    - dist/safe-files.zip
+
+state: visible
+
+version: "0.1"

@@ -1,0 +1,1 @@
+FLAG = 'TUDCTF{MyFriendN.S.A.nthonyM4deAbackd00r}'

@@ -1,0 +1,21 @@
+name: "Sanity check"
+author: "dvos"
+category: misc
+description: Connect to us on discord! 
+value: 8  # beginner -> 16, easy -> 64, intermediate -> 256, hard -> 1024
+type: standard
+
+image: null
+protocol: null
+host: null
+
+connection_info: https://discord.gg/5QWxsReh
+
+flags:
+    - TUDCTF{I_l0v3_d1sc0rd}
+tags:
+    - discord
+
+state: visible
+
+version: "0.1"

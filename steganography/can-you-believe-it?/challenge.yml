@@ -1,0 +1,23 @@
+name: "Can you believe it?"
+author: "maxdem"
+category: steganography
+description: Can you believe it? A friend told me there is a flag in here, I am shocked!
+value: 16  # beginner -> 16, easy -> 64, intermediate -> 256, hard -> 1024
+type: standard
+
+image: dist/shocked.png
+protocol: null
+host: null
+
+flags:
+    - TUDCTF{str1ngs-in-h3r3?}
+tags:
+    - steganography
+    - png
+
+state: visible
+
+version: "0.1"
+
+files:
+  - dist/shocked.png

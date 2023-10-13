@@ -1,0 +1,26 @@
+name: "Brainfuck 86"
+author: "per"
+category: misc
+description: I made brainfuck go fast, hope that it is still savely contained.
+value: 256  # beginner -> 16, easy -> 64, intermediate -> 256, hard -> 1024
+type: standard
+
+image: null
+protocol: null
+host: null
+
+connection_info: nc tudctf.per.lol 1386
+
+flags:
+    - TUDCTF{d0lph1ns_c4n_und3rst4nd_0ut_of_b0unds_wr1t3s}
+tags:
+    - brainfuck
+    - jit
+files:
+    - dist/brainfuck_jit.nim
+    - dist/Dockerfile
+    - dist/launch-docker.sh
+
+state: visible
+
+version: "0.1"

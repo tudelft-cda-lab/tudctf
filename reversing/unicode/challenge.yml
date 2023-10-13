@@ -1,0 +1,24 @@
+name: "unicode"
+author: "Thijs"
+category: reversing
+description: |-
+  My friend found this new programming challenge with fancy glyphs and gave me a challenge. Unfortunately my favorite font only supports ASCII. Can you help me out?
+
+  Tested on both CLI and web versions of [Uiua v0.0.16](https://www.uiua.org/).
+value: 256 #maybe 256?  # beginner -> 16, easy -> 64, intermediate -> 256, hard -> 1024
+type: standard
+
+image: null
+protocol: null
+host: null
+
+flags:
+  - TUDCTF{2768593938126314414713327}
+tags:
+  - reversing
+files:
+  - challenge.ua
+
+state: visible
+
+version: "0.1"

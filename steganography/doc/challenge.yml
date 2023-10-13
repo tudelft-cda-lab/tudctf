@@ -1,0 +1,22 @@
+name: "Documents"
+author: "maxdem"
+category: misc
+description: "Microsoft definitely did not reuse a known file format for their software, right?"
+value: 16  # beginner -> 16, easy -> 64, intermediate -> 256, hard -> 1024
+type: standard
+
+image: null
+protocol: null
+host: null
+
+flags:
+    - TUDCTF{pr0pr1et4ry-f1l3-f0rm47s}
+tags:
+    - files
+    - docx
+files:
+    - dist/cookies.docx
+
+state: visible
+
+version: "0.1"

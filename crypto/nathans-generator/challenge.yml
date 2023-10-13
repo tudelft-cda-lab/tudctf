@@ -1,0 +1,23 @@
+name: "Nathan's Generator"
+author: "martin"
+category: crypto
+description: "My good friend Nathan Sebastian Anthony gave me this nice Dual_EC_DRBG-like random number generator. It uses elliptic curves so it must be very secure. Nathan was even kind enough to provide me with the necessary P and Q points, so that I don't have to calculate them myself. What a nice guy!"
+value: 256  # beginner -> 16, easy -> 64, intermediate -> 256, hard -> 1024
+type: standard
+
+image: null
+protocol: null
+host: null
+
+flags:
+    - TUDCTF{MyFriendN.S.A.nthonyM4deAbackd00r}
+tags:
+    - cipher
+
+state: visible
+
+version: "0.1"
+
+files:
+    - dist/nathans_generator.py
+    - dist/output.txt

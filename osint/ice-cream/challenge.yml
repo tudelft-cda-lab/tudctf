@@ -1,0 +1,38 @@
+name: "Ice cream"
+author: "martin"
+category: osint
+description: "A friend of mine sent me a picture of some tasty-looking ice cream. Do you happen to know what the website of this ice cream place is? <br> Note: the flag is the domain name of the website without TUDCTF{...}"
+value: 16  # beginner -> 16, easy -> 64, intermediate -> 256, hard -> 1024
+type: standard
+
+image: null
+protocol: null
+host: null
+
+flags:
+    - https://www.gelateriafassi.com/
+    - https://www.gelateriafassi.com
+    - https://gelateriafassi.com/
+    - https://gelateriafassi.com
+    - http://www.gelateriafassi.com/
+    - http://www.gelateriafassi.com
+    - http://gelateriafassi.com/
+    - http://gelateriafassi.com
+    - www.gelateriafassi.com
+    - gelateriafassi.com
+    - TUDCTF{https://www.gelateriafassi.com/}
+    - TUDCTF{https://www.gelateriafassi.com}
+    - TUDCTF{https://gelateriafassi.com/}
+    - TUDCTF{https://gelateriafassi.com}
+    - TUDCTF{http://www.gelateriafassi.com/}
+    - TUDCTF{http://www.gelateriafassi.com}
+    - TUDCTF{http://gelateriafassi.com/}
+    - TUDCTF{http://gelateriafassi.com}
+    - TUDCTF{www.gelateriafassi.com}
+    - TUDCTF{gelateriafassi.com}
+files:
+    - IMG_4737.jpg
+
+state: visible
+
+version: "0.1"

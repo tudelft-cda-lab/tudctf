@@ -1,0 +1,24 @@
+name: "Guess the Number"
+author: "martin"
+category: web
+description: I've chosen a random number. Guess the number I'm thinking of and you shall be rewarded.
+value: 64  # beginner -> 16, easy -> 64, intermediate -> 256, hard -> 1024
+type: standard
+
+image: null
+protocol: null
+host: null
+
+flags:
+    - TUDCTF{KN0WN_PL41NT3XT}
+tags:
+    - web
+
+state: visible
+
+version: "0.1"
+
+connection_info: http://158.180.233.240:47521/
+
+files:
+    - dist/guess_the_number.zip

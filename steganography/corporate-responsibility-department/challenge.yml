@@ -1,0 +1,22 @@
+name: "Corporate Responsibility Department"
+author: "TechnologicNick"
+category: steganography
+description: I found this Chinese README file with a message. According to deepl.com it says "Corporate Responsibility Department", but that doesn't make sense. Can you help me understand it?
+value: 16  # beginner -> 16, easy -> 64, intermediate -> 256, hard -> 1024
+type: standard
+
+image: null
+protocol: null
+host: null
+
+flags:
+    - TUDCTF{b1n9_ch1ll1n9_ord3r_m4rk}
+tags:
+    - steganography
+
+state: visible
+
+version: "0.1"
+
+files:
+    - dist/README_cn.md

@@ -1,0 +1,15 @@
+This challenge relies on P being a multiple of Q (such that Q * e = P). In this case, e = 42 (small enough to be bruteforceable).
+
+s = internal state
+
+to generate a number:
+- calculate output = s*Q and take its x
+- calculate next internal state = s*P and take its x
+
+to crack:
+- if you have an output number (x of a point), calculate its corresponding y
+- (x, y) = s*Q
+- next internal state = s*P
+- this is equal to s*(e*Q) = e*(s*Q)
+- multiply (x, y) by e in order to get the next internal state
+- from there, you can predict the following generated numbers
